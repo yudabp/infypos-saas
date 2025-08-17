@@ -3,7 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+!.env
 .env.backup
 /.phpunit.cache
 docker-compose.override.yml
@@ -13,11 +13,11 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/public/assets
-/public/uploads
-/public/fonts
-/public/js
+!/public/assets
+!/public/uploads
+!/public/fonts
+!/public/js
 !/public/barcode-images
 !/public/import_demo_files
-public/js/app.js
-public/mix-manifest.json
+!public/js/app.js
+!public/mix-manifest.json
